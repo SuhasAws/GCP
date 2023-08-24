@@ -1,0 +1,19 @@
+module "BigQ-DS" {
+    source = "./modules/BigQuery"
+    BigQ-DS-dataset_id = var.BigQ-DS-dataset_id
+    BigQ-DS-friendly_name = var.BigQ-DS-friendly_name
+    BigQ-DS-description = var.BigQ-DS-description
+    BigQ-DS-location = var.BigQ-DS-location
+    BigQ-DS-default_table_expiration_ms = var.BigQ-DS-default_table_expiration_ms
+    BigQ-DS-project = var.BigQ-DS-project
+    BigQ-Table-table_id = var.BigQ-Table-table_id
+    BigQ-Table-TP-type = var.BigQ-Table-TP-type
+    column1-name = var.column1-name
+    column1-type = var.column1-type
+    column1-mode = var.column1-mode
+    column1-description = var.column1-description
+    column2-name = var.column2-name
+    column2-type = var.column2-type
+    column2-mode = var.column2-mode
+    column2-description = var.column2-description
+}
